@@ -15,3 +15,4 @@ class CoreBusiness extends Component {
 }
 
 export default CoreBusiness;
+ 
