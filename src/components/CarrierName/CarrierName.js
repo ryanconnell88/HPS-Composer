@@ -7,7 +7,8 @@ const CarrierName = props => {
   return (
     <div className="CarrierName">
       <FormContainer>
-        <FormHeader/>
+        <FormHeader title="Name of the Carrier" isOpen={props.isOpen} toggle={props.toggle}/>
+        <input placeholder="Enter carrier name here"></input>
       </FormContainer>
     </div>
   );
