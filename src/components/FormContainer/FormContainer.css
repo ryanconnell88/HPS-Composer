@@ -1,0 +1,5 @@
+.FormContainer {
+  -moz-box-shadow: 0 0 7px #C1C1C1;
+    -webkit-box-shadow: 0 0 7px #C1C1C1;
+    box-shadow: 0 0 7px #C1C1C1;
+}
