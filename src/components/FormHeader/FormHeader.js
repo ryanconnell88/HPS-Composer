@@ -41,10 +41,9 @@ const FormHeader = props => {
               <FontAwesomeIcon icon="ellipsis-v" />
             </DropdownToggle>
             <DropdownMenu>
-              <div onClick={props.toggle}>Custom dropdown item</div>
-              <div onClick={props.toggle}>Custom dropdown item</div>
-              <div onClick={props.toggle}>Custom dropdown item</div>
-              <div onClick={props.toggle}>Custom dropdown item</div>
+              <div className="dropdown-item" onClick={props.toggle}><FontAwesomeIcon icon="file-alt" /> Notes </div>
+              <div className="dropdown-item" onClick={props.toggle}><FontAwesomeIcon icon="sliders-h" /> Customization </div>
+              <div className="dropdown-item" onClick={props.toggle}><FontAwesomeIcon icon="clipboard" /> Add To-Do </div>
             </DropdownMenu>
           </Dropdown>
         </NavItem>
