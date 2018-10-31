@@ -1,0 +1,50 @@
+.FileDropper .thumbsContainer {
+  display: 'flex';
+  flex-direction: 'row';
+  flex-wrap: 'wrap';
+  margin-top: 16;
+}
+
+.FileDropper .thumb {
+  display: 'inline-flex';
+  border-radius: 2;
+  border: '1px solid #eaeaea';
+  margin-bottom: 8;
+  margin-right: 8;
+  width: 100;
+  height: 100;
+  padding: 4;
+  box-sizing: 'border-box';
+}
+
+.FileDropper .thumbInner {
+  display: 'flex';
+  min-width: 0;
+  overflow: 'hidden';
+  margin: 8px 0 0 15px;
+}
+
+
+.FileDropper svg{
+  font-size: 700%;
+  margin: 18px 0 20px 42%;
+}
+.FileDropper p{
+  font-size: 85%;
+  text-align: center;
+}
+.FileDropper .dropzone div{
+  width: 96% !important;
+  margin: 0 0 0 16px;
+}
+
+.thumb-img{
+  margin: 0 0 0 0;
+}
+
+.thumbInner h5 {
+  margin: 32px 0 24px 0;
+}
+.thumb hr {
+  width: 98%;
+}
