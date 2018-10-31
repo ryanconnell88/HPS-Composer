@@ -25,6 +25,7 @@ class FileDropper extends Component {
     const { files } = this.state;
     for (let i = files.length; i >= 0; i--) {
       const file = files[0];
+      if(file)
       URL.revokeObjectURL(file.preview);
     }
   }

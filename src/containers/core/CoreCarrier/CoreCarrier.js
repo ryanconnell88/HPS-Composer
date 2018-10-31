@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 import './CoreCarrier.css';
 import HeaderNotification from '../../../components/HeaderNotification/HeaderNotification';
 import CarrierLogo from '../../../components/CarrierLogo/CarrierLogo';
@@ -15,6 +15,7 @@ class CoreCarrier extends Component {
           <HeaderNotification header={lorem.header} text={lorem.text} />
           <CarrierName/>
           <CarrierLogo/>
+          <Button>Next</Button>
         </Container>
       </div>
     );

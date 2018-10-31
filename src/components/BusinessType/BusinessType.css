@@ -1,0 +1,10 @@
+.BusinessType .btn {
+  display: block;
+  margin: 40px auto;
+}
+
+.BusinessType .btn-danger {
+  float: right;
+  margin: -31px 2% 0 0;
+}
+

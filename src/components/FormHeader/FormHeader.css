@@ -10,3 +10,28 @@
 .FormHeader .elp {
   margin: -33px 0 0 95%;
 }
+
+@media only screen and (max-width: 720px){
+  .FormHeader .env {
+    margin: -40px 0 0 81%;
+  }
+  .FormHeader .elp {
+    margin: -33px 0 0 92%;
+  }
+}
+@media only screen and (max-width: 570px){
+  .FormHeader .env {
+    margin: -40px 0 0 75%;
+  }
+  .FormHeader .elp {
+    margin: -33px 0 0 89%;
+  }
+}
+@media only screen and (max-width: 470px){
+  .FormHeader .env {
+    margin: -40px 0 0 63%;
+  }
+  .FormHeader .elp {
+    margin: -33px 0 0 85%;
+  }
+}
