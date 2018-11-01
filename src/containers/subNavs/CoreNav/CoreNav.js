@@ -33,7 +33,7 @@ class CoreNav extends Component {
     return (
       <div className="CoreNav">
         <Navbar color="light" light expand="md">
-          <NavbarToggler onClick={this.toggle}   />
+          <NavbarToggler onClick={this.toggle} className="sub-nav"/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>

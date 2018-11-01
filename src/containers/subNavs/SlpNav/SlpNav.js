@@ -4,9 +4,7 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink, } from 'reactstrap';
+  Nav } from 'reactstrap';
 
 
 class SlpNav extends Component {
@@ -28,7 +26,7 @@ class SlpNav extends Component {
     return (
       <div className="SlpNav">
         <Navbar color="light" light expand="md">
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle} className="sub-nav"/>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
             </Nav>

@@ -4,9 +4,7 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink, } from 'reactstrap';
+  Nav } from 'reactstrap';
 
 
 class ExchangeNav extends Component {
@@ -28,7 +26,7 @@ class ExchangeNav extends Component {
     return (
       <div className="ExchangeNav">
         <Navbar color="light" light expand="md">
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler className="sub-nav" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               
