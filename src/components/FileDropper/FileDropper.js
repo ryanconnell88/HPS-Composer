@@ -4,6 +4,7 @@ import Dropzone from "react-dropzone";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class FileDropper extends Component {
+  //the the methods below are for react-dropzone 
   constructor() {
     super();
     this.state = {

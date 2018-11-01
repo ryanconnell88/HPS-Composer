@@ -7,7 +7,7 @@ import CarrierName from '../../../components/CarrierName/CarrierName';
 import lorem from '../../../assets/js/lorem';
 
 class CoreCarrier extends Component {
-  
+  //container for the Carrier details page
   render() {
     return (
       <div className="CoreCarrier">

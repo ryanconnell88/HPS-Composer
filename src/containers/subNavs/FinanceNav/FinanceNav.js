@@ -8,6 +8,8 @@ import {
 
 
 class FinanceNav extends Component {
+  //sub-nav for finance and billing pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);

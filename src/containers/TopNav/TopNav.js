@@ -20,8 +20,11 @@ import {
 
 
 class TopNav extends Component {
+  //nav for sub-navs
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
+    // for toggling the top navigation bar
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
@@ -40,6 +43,7 @@ class TopNav extends Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">Dynamic Name</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
+          {/*use navlinks to route to the switch */}
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
@@ -67,6 +71,7 @@ class TopNav extends Component {
           </Collapse>
         </Navbar>
         <Switch>
+            {/* use switch to route to the subnavs */}
             <Route path="/core"  component={CoreNav}/>
             <Route path="/exchange" exact component={ExchangeNav}/>
             <Route path="/finance" exact component={FinanceNav}/>
@@ -81,3 +86,4 @@ class TopNav extends Component {
 }
 
 export default TopNav;
+//

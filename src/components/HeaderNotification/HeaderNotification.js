@@ -4,6 +4,7 @@ import {  Jumbotron } from "reactstrap";
 import "./HeaderNotification.css";
 
 const HeaderNotification = props => {
+  //A jumbotron component for notifications 
   return (
     <div className="HeaderNotification">
         <Jumbotron>

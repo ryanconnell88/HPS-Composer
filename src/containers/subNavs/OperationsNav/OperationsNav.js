@@ -8,6 +8,8 @@ import {
 
 
 class OperationsNav extends Component {
+  //sub-nav for operations pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);

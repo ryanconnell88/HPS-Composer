@@ -4,7 +4,7 @@ import './CoreLine.css';
 
 
 class CoreLine extends Component {
-
+  //container for the line of business page
   render() {
     return (
       <div className="CoreLine">

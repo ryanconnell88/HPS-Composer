@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./FormHeader.css";
 
 class FormHeader extends Component {
+  //Methods below are for the reactstrap dropdown
   constructor(props) {
     super(props);
 

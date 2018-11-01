@@ -8,6 +8,8 @@ import {
 
 
 class SlpNav extends Component {
+  //sub-nav for SLP pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);

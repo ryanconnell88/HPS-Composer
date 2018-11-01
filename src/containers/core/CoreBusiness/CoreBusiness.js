@@ -8,7 +8,7 @@ import lorem from '../../../assets/js/lorem';
 
 
 class CoreBusiness extends Component {
-
+  //container for the Business details page
   render() {
     return (
       <div className="CoreBusiness">

@@ -15,6 +15,8 @@ import CoreLegal from "../../core/CoreLegal/CoreLegal";
 import CoreLine from "../../core/CoreLine/CoreLine";
 
 class CoreNav extends Component {
+  //sub-nav for core pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);

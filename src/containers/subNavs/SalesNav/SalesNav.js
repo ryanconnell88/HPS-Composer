@@ -8,6 +8,8 @@ import {
 
 
 class SalesNav extends Component {
+  //sub-nav for sales link pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);

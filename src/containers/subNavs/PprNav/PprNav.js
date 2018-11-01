@@ -10,6 +10,8 @@ import {
 
 
 class PprNav extends Component {
+  //sub-nav for PPR pages 
+  //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
