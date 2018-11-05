@@ -6,5 +6,7 @@
 .BusinessType .btn-danger {
   float: right;
   margin: -31px 2% 0 0;
+  border-radius: 7% !important;
+  padding-left: .5rem;
 }
 
