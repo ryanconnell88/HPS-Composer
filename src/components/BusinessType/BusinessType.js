@@ -12,7 +12,7 @@ const BusinessType = props => {
         <Button>Individual On-Exchange</Button>
         <Button>Individual Off-Exchange</Button>
         <Button>Group Off-Exchange</Button>
-        <Button color="danger">Clear All</Button>
+        <Button color="danger">Clear</Button>
       </FormContainer>
     </div>
   );

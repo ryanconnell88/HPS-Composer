@@ -39,25 +39,23 @@ class CoreNav extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink to="/core/carrier-details" tag={RRNavLink}>Carrier Details</NavLink>
+                <NavLink to="/console/core/carrier-details" tag={RRNavLink}>Carrier Details</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/core/business-details" tag={RRNavLink}>Business Details</NavLink>
+                <NavLink to="/console/core/business-details" tag={RRNavLink}>Business Details</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/core/line-of-business" tag={RRNavLink}>Line of Business</NavLink>
+                <NavLink to="/console/core/line-of-business" tag={RRNavLink}>Line of Business</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/core/legal-entity" tag={RRNavLink}>Legal Entity</NavLink>
+                <NavLink to="/console/core/legal-entity" tag={RRNavLink}>Legal Entity</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <Switch>
-            <Route path="/core/carrier-details" exact  component={CoreCarrier}/>
-            <Route path="/core/business-details" exact component={CoreBusiness}/>
-            <Route path="/core/line-of-business" exact component={CoreLine}/>
-            <Route path="/core/legal-entity" exact component={CoreLegal}/>
+        <Route path="/console/core/carrier-details"   component={CoreCarrier }/>
+        <Route path="/console/core/business-details" exact component={CoreBusiness }/>
         </Switch>
       </div>
     );

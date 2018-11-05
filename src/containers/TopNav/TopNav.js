@@ -19,6 +19,11 @@ import OperationsNav from "../subNavs/OperationsNav/OperationsNav";
 import PprNav from "../subNavs/PprNav/PprNav";
 import SalesNav from "../subNavs/SalesNav/SalesNav";
 import SlpNav from "../subNavs/SlpNav/SlpNav";
+import CoreBusiness from "../core/CoreBusiness/CoreBusiness";
+import CoreCarrier from "../core/CoreCarrier/CoreCarrier";
+import CoreLegal from "../core/CoreLegal/CoreLegal";
+import CoreLine from "../core/CoreLine/CoreLine";
+
 
 class TopNav extends Component {
   //nav for sub-navs
@@ -49,37 +54,37 @@ class TopNav extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink to="/core/carrier-details" tag={RRNavLink}>
+                <NavLink to="/console/core/carrier-details" tag={RRNavLink}>
                   CORE
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/ppr" tag={RRNavLink}>
+                <NavLink to="/console/ppr" tag={RRNavLink}>
                   PPR
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/exchange" tag={RRNavLink}>
+                <NavLink to="/console/exchange" tag={RRNavLink}>
                   EXCHANGE LINK
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/slp" tag={RRNavLink}>
+                <NavLink to="/console/slp" tag={RRNavLink}>
                   SLP
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/sales" tag={RRNavLink}>
+                <NavLink to="/console/sales" tag={RRNavLink}>
                   SALES LINK
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/operations" tag={RRNavLink}>
+                <NavLink to="/console/operations" tag={RRNavLink}>
                   OPERATIONS
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/finance" tag={RRNavLink}>
+                <NavLink to="/console/finance" tag={RRNavLink}>
                   FINANCE & BILLING
                 </NavLink>
               </NavItem>
@@ -88,13 +93,13 @@ class TopNav extends Component {
         </Navbar>
         <Switch>
           {/* use switch to route to the subnavs */}
-          <Route path="/core" component={CoreNav} />
-          <Route path="/exchange" exact component={ExchangeNav} />
-          <Route path="/finance" exact component={FinanceNav} />
-          <Route path="/operations" exact component={OperationsNav} />
-          <Route path="/ppr" exact component={PprNav} />
-          <Route path="/sales" exact component={SalesNav} />
-          <Route path="/slp" exact component={SlpNav} />
+          <Route path="/console/core" component={CoreNav} />
+          <Route path="/console/exchange" exact component={ExchangeNav} />
+          <Route path="/console/finance" exact component={FinanceNav} />
+          <Route path="/console/operations" exact component={OperationsNav} />
+          <Route path="/console/ppr" exact component={PprNav} />
+          <Route path="/console/sales" exact component={SalesNav} />
+          <Route path="/console/slp" exact component={SlpNav} />
         </Switch>
       </div>
     );

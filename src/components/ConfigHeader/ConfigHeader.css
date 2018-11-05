@@ -1,0 +1,97 @@
+.ConfigHeader {
+  font-size: 200%;
+}
+
+.ConfigHeader .nav {
+  margin: 0 !important;
+  padding-right: 5%;
+}
+
+.ConfigHeader .header-icon {
+  float: left;
+  margin: 11px 0 0 33px;
+}
+
+.ConfigHeader .header-cog {
+  float: right;
+  margin: -39px 303px 0px 0px !important;
+}
+.ConfigHeader .header-ellipsis {
+  float: right;
+  margin:-38px 245px 12px 0px !important;
+}
+.ConfigHeader .header-text {
+  margin-left: 448px;
+}
+
+.ConfigHeader .new-provider {
+  color: white !important;
+  background-color: #e01d1d !important;
+  border: 1px solid #ad0101 !important;
+  padding: 6px 43px !important;
+  float: right;
+  margin: -41px -260px 0px 0px;
+}
+
+.ConfigHeader .new-provider:hover {
+  color: white !important;
+  background-color: #910303 !important;
+  border: 1px solid #690000 !important;
+}
+
+.ConfigHeader .new-provider:focus {
+  outline: none !important;
+}
+
+.ConfigHeader ul {
+  list-style: none;
+}
+
+.ConfigHeader ul a {
+  text-decoration: none;
+  color: white !important;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.ConfigHeader ul a:active,
+.ConfigHeader ul a:hover {
+  color: #3fd6f4 !important;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1144px) {
+  .ConfigHeader {
+    margin-bottom: 100px;
+  }
+  .ConfigHeader .header-text {
+    position: absolute;
+    top: -2px;
+    left: -411px;
+    float: none;
+  }
+  .ConfigHeader .header-icon {
+    position: absolute;
+    top: -10px;
+    left: 39px;
+    margin: 53px 0 0 0;
+  }
+
+  .ConfigHeader .header-cog {
+    position: absolute;
+    top: 81px;
+    left: 88px;
+    float: none;
+  }
+  .ConfigHeader .header-ellipsis {
+    position: absolute;
+    top: 80px;
+    left: 135px;
+    float: none;
+  }
+  .ConfigHeader .new-provider {
+    position: absolute;
+    top: 83px;
+    left: 183px;
+    float: none;
+    padding: 4px 6px !important;
+  }
+}

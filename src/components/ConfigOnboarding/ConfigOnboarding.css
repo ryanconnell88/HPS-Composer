@@ -1,0 +1,40 @@
+.ConfigOnboarding {
+  background-color: #ede3e3;
+  height: 334px;
+  margin-bottom: 24px;
+  border-radius: 15px;
+  width: 277px;
+  box-shadow: 0 4px 8px 0 rgba(36, 36, 36, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ConfigOnboarding img {
+  height: 36%;
+  width: 72%;
+  margin: 37px 0 0 31px !important;
+}
+.main-button {
+  width: 90%;
+  margin-top: 17px;
+}
+.ConfigOnboarding .img-wrap {
+  width: 249px;
+  height: 120px;
+  margin: 13px 0 0 14px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.ConfigOnboarding h4,
+.ConfigOnboarding p {
+  text-align: left;
+  text-align: left;
+  margin: 20px 0 0 14px;
+  color: #382c2c;
+}
+@media only screen and (max-width: 991px) {
+  .ConfigOnboarding img {
+    height: 36%;
+    width: 72%  !important;
+    margin: 37px 0 0 31px !important;
+  }
+}

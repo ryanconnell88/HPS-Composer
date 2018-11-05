@@ -1,0 +1,12 @@
+.Configurator{
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(29, 77, 139, 0.98);
+  width: 100%;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+}

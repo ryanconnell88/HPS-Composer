@@ -1,0 +1,15 @@
+.ConfigProviders {
+  margin: 20px 0 0 31px;
+}
+
+.ConfigProviders h5 {
+  color: white;
+    text-align: left;
+    margin: 33px 0 28px 0;
+    font-size: 133%;
+}
+@media only screen and (max-width: 991px) {
+  .ConfigProviders {
+    margin: 130px 0 0 31px;
+  }
+}
