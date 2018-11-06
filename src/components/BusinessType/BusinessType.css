@@ -10,3 +10,16 @@
   padding-left: .5rem;
 }
 
+@media only screen and (max-width: 410px){
+  .BusinessType .btn {
+    width: 91%;
+    padding-left: 7px;
+    font-size: 95%;
+  }
+  
+  .BusinessType .btn-danger {
+    float: none;
+    margin: -2px 0% 0px 73px;
+    
+  }
+}
