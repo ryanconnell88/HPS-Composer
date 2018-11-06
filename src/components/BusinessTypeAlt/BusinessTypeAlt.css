@@ -1,0 +1,19 @@
+.BusinessTypeAlt {
+  height: 462px;
+}
+.BusinessTypeAlt  .env {
+  margin: -47px 0 0 60%;
+}
+.BusinessTypeAlt  .elp {
+  margin: -40px 0 0 84%;
+}
+.BusinessTypeAlt  .btn {
+  width: 82%;
+  margin: 34px 8%;
+  font-size: 80%;
+}
+@media only screen and (max-width: 1145px){
+  .BusinessTypeAlt  .btn {
+    font-size: 60%;
+  }
+}

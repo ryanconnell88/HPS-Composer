@@ -54,8 +54,9 @@ class CoreNav extends Component {
           </Collapse>
         </Navbar>
         <Switch>
-        <Route path="/console/core/carrier-details"   component={CoreCarrier }/>
-        <Route path="/console/core/business-details" exact component={CoreBusiness }/>
+        <Route path="/console/core/carrier-details"  exact component={CoreCarrier}/>
+        <Route path="/console/core/business-details" exact component={CoreBusiness}/>
+        <Route path="/console/core/line-of-business" exact component={CoreLine}/>
         </Switch>
       </div>
     );
