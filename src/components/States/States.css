@@ -3,11 +3,27 @@
   margin-left: 3%;
   margin-bottom: 8px;
 }
+.States .btn-group {
+  margin: 17px 0 0 117px;
+}
+@media only screen and (max-width: 992px) {
+  .States .btn-group {
+    margin: 17px 0 0 200px;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .States .btn-group {
+    margin: 17px 0 0 100px;
+  }
+}
 @media only screen and (max-width: 500px) {
   .States .col-2{
     margin-left: 1px;
   }
   .States .btn{
     margin-left: 23px;
+  }
+  .States .btn-group {
+    margin: 17px 0 0 56px;
   }
 }

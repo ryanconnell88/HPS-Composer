@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Row } from 'reactstrap';
+import { Button, ButtonGroup, Col, Row } from 'reactstrap';
 import FormHeader from '../FormHeader/FormHeader';
 import FormContainer from '../FormContainer/FormContainer';
 import State from "../States/State/State";
@@ -22,6 +22,11 @@ const States = props => {
         <Row>
         {theStates}
         </Row>
+        <ButtonGroup>
+          <Button>Select All</Button>
+          <Button>Copy All</Button>
+          <Button>Clear All</Button>
+        </ButtonGroup>
       </FormContainer>
     </div>
   );
