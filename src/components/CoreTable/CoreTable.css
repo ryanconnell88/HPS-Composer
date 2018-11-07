@@ -1,0 +1,19 @@
+.CoreTable .table {
+  border: #DEE2E6 solid 1px;
+}
+
+.CoreTable .btn-group {
+  margin-top: -22px;
+}
+.CoreTable .btn-success {
+  border-top-left-radius: 10% !important;
+  border-top-right-radius: 0% !important;
+  border-bottom-left-radius: 10% !important;
+  border-bottom-right-radius: 0% !important;
+}
+.CoreTable .btn-danger {
+  border-top-left-radius: 0% !important;
+  border-top-right-radius: 10% !important;
+  border-bottom-left-radius: 0% !important;
+  border-bottom-right-radius: 10% !important;
+}

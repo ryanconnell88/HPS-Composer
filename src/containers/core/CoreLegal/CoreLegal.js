@@ -1,6 +1,10 @@
-import React, { Component } from 'react';
-import './CoreLegal.css';
-
+import React, { Component } from "react";
+import "./CoreLegal.css";
+import { Container } from "reactstrap";
+import HeaderNotification from "../../../components/HeaderNotification/HeaderNotification";
+import CoreTable from "../../../components/CoreTable/CoreTable";
+import LegalTable from "../../../components/LegalTable/LegalTable";
+import lorem from "../../../assets/js/lorem";
 
 
 class CoreLegal extends Component {
@@ -8,7 +12,11 @@ class CoreLegal extends Component {
   render() {
     return (
       <div className="CoreLegal">
-        CoreLegal
+        <Container>
+          <HeaderNotification header={lorem.header} text={lorem.text} />
+          <CoreTable/>
+          <LegalTable/>
+        </Container>
       </div>
     );
   }

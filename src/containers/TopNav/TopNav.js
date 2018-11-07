@@ -19,10 +19,7 @@ import OperationsNav from "../subNavs/OperationsNav/OperationsNav";
 import PprNav from "../subNavs/PprNav/PprNav";
 import SalesNav from "../subNavs/SalesNav/SalesNav";
 import SlpNav from "../subNavs/SlpNav/SlpNav";
-import CoreBusiness from "../core/CoreBusiness/CoreBusiness";
-import CoreCarrier from "../core/CoreCarrier/CoreCarrier";
-import CoreLegal from "../core/CoreLegal/CoreLegal";
-import CoreLine from "../core/CoreLine/CoreLine";
+
 
 
 class TopNav extends Component {
@@ -59,7 +56,7 @@ class TopNav extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/console/ppr" tag={RRNavLink}>
+                <NavLink to="/console/ppr/plan-information" tag={RRNavLink}>
                   PPR
                 </NavLink>
               </NavItem>
@@ -94,12 +91,12 @@ class TopNav extends Component {
         <Switch>
           {/* use switch to route to the subnavs */}
           <Route path="/console/core" component={CoreNav} />
-          <Route path="/console/exchange" exact component={ExchangeNav} />
-          <Route path="/console/finance" exact component={FinanceNav} />
-          <Route path="/console/operations" exact component={OperationsNav} />
-          <Route path="/console/ppr" exact component={PprNav} />
-          <Route path="/console/sales" exact component={SalesNav} />
-          <Route path="/console/slp" exact component={SlpNav} />
+          <Route path="/console/exchange"  component={ExchangeNav} />
+          <Route path="/console/finance"  component={FinanceNav} />
+          <Route path="/console/operations"  component={OperationsNav} />
+          <Route path="/console/ppr"  component={PprNav} />
+          <Route path="/console/sales"  component={SalesNav} />
+          <Route path="/console/slp"  component={SlpNav} />
         </Switch>
       </div>
     );

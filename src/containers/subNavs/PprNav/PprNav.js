@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route, Switch, NavLink as RRNavLink } from "react-router-dom";
 import './PprNav.css';
 import {
   Collapse,
@@ -6,7 +7,8 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
-  NavLink, } from 'reactstrap';
+  NavLink } from 'reactstrap';
+  import PlanInfo from "../../ppr/PlanInfo/PlanInfo";
 
 
 class PprNav extends Component {
@@ -34,20 +36,24 @@ class PprNav extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="#">Plan Information</NavLink>
+                <NavLink to="/console/ppr/plan-information" tag={RRNavLink}>Plan Information</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Benefits & CSR</NavLink>
+                <NavLink to="/console/ppr">Benefits & CSR</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Rates</NavLink>
+                <NavLink to="/console/ppr">Rates</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Plan Coverage</NavLink>
+                <NavLink to="/console/ppr">Plan Coverage</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
+        
+          <Route path="/console/ppr/plan-information" exact component={PlanInfo}/>
+
+        
       </div>
     );
   }

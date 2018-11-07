@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./CoreNav.css";
-import { Route, Switch , NavLink as RRNavLink} from "react-router-dom";
+import { Route, Switch, NavLink as RRNavLink } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -15,7 +15,7 @@ import CoreLegal from "../../core/CoreLegal/CoreLegal";
 import CoreLine from "../../core/CoreLine/CoreLine";
 
 class CoreNav extends Component {
-  //sub-nav for core pages 
+  //sub-nav for core pages
   //the following methods are for reactstrap navbar
   constructor(props) {
     super(props);
@@ -35,28 +35,53 @@ class CoreNav extends Component {
     return (
       <div className="CoreNav">
         <Navbar color="light" light expand="md">
-          <NavbarToggler onClick={this.toggle} className="sub-nav"/>
+          <NavbarToggler onClick={this.toggle} className="sub-nav" />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink to="/console/core/carrier-details" tag={RRNavLink}>Carrier Details</NavLink>
+                <NavLink to="/console/core/carrier-details" tag={RRNavLink}>
+                  Carrier Details
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/console/core/business-details" tag={RRNavLink}>Business Details</NavLink>
+                <NavLink to="/console/core/business-details" tag={RRNavLink}>
+                  Business Details
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/console/core/line-of-business" tag={RRNavLink}>Line of Business</NavLink>
+                <NavLink to="/console/core/line-of-business" tag={RRNavLink}>
+                  Line of Business
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/console/core/legal-entity" tag={RRNavLink}>Legal Entity</NavLink>
+                <NavLink to="/console/core/legal-entity" tag={RRNavLink}>
+                  Legal Entity
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <Switch>
-        <Route path="/console/core/carrier-details"  exact component={CoreCarrier}/>
-        <Route path="/console/core/business-details" exact component={CoreBusiness}/>
-        <Route path="/console/core/line-of-business" exact component={CoreLine}/>
+          <Route
+            path="/console/core/carrier-details"
+            exact
+            component={CoreCarrier}
+          />
+          <Route
+            path="/console/core/business-details"
+            exact
+            component={CoreBusiness}
+          />
+          <Route
+            path="/console/core/line-of-business"
+            exact
+            component={CoreLine}
+          />
+          <Route
+            path="/console/core/legal-entity"
+            exact
+            component={CoreLegal}
+          />
         </Switch>
       </div>
     );
