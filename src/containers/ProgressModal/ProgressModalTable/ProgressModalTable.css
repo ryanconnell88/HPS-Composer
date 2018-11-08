@@ -1,0 +1,20 @@
+.ProgressModalTable .norm,
+.ProgressModalTable .success,
+.ProgressModalTable .danger,
+.ProgressModalTable .warning {
+  text-align: center
+}
+.ProgressModalTable .norm {
+  color: #214F8D;
+  background-color: #F5F5F5;
+  font-weight: 500;
+}
+.ProgressModalTable .success {
+  background-color: #46B546;
+}
+.ProgressModalTable .danger {
+  background-color: #DE4242;
+}
+.ProgressModalTable .warning {
+  background-color: #E9E92E;
+}

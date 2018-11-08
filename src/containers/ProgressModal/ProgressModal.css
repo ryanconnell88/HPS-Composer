@@ -1,0 +1,10 @@
+.main {
+  margin: 13px 0px 0 16px !important;
+  width: 245px !important;
+}
+ .modal-content {
+  width: 120%;
+}
+.modal-content p {
+  font-weight: 200;
+}

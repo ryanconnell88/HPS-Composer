@@ -14,7 +14,6 @@ class PlanInfo extends Component {
       <div className="PlanInfo">
         <Container>
           <HeaderNotification header={lorem.header} text={lorem.text}/>
-
           <Info title="Plan Codes"/>
           <Info title="Rate Guarantee"/>
           <Info title="Sales Brochure"/>

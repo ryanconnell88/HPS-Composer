@@ -1,13 +1,13 @@
 import React from "react";
 import { Button } from "reactstrap";
-//import testImg from "../../img/aetna.png";
+import ProgressModal from "../../containers/ProgressModal/ProgressModal"
 
 import "./ConfigProvider.css";
 
 const ConfigProvider = props => (
   
   <div className="ConfigProvider">
-    <Button className="main-button" color="primary">Primary</Button>
+    <ProgressModal img={props.img} name={props.name} date={props.date}/>
     <div className="img-wrap">
       <img src={props.img} alt="test" />
     </div>
